@@ -1,0 +1,7 @@
+export const COUNTRY_DETAILS = 'COUNTRY_DETAILS';
+export const COUNTRY_DETAILS_FETCH_COMPLETED =
+  'COUNTRY_DETAILS_FETCH_COMPLETED';
+export const USER_ADD = 'USER_ADD';
+export const USER_DELETE = 'USER_DELETE';
+export const USER_UPDATE = 'USER_UPDATE';
+export const ERROR = 'ERROR';
