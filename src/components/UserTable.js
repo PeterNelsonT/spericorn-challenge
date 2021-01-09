@@ -32,12 +32,10 @@ const StyledList = styled.div`
     width: 99%;
     margin: auto;
     margin-top: 5px;
-    table-layout: fixed; /* even columns width , fix width of table too*/
+    table-layout: fixed;
   }
   thead {
-    width: calc(
-      100% - 1em
-    ); /* scrollbar is average 1em/16px width, remove it from thead width */
+    width: calc(100% - 1em);
   }
   table {
     min-width: 450px;

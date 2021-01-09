@@ -159,7 +159,6 @@ const StyledDetails = styled.div`
   }
 `;
 function UserForm(props) {
-  console.log(props);
   const history = useHistory();
   const firstName = useRef();
   const lastName = useRef();
@@ -185,7 +184,6 @@ function UserForm(props) {
   const [isHovered, setHover] = useState(false);
 
   const handleChange = (event) => {
-    console.log(event);
     if (event.target.value) setFile(URL.createObjectURL(event.target.files[0]));
   };
 

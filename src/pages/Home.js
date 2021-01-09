@@ -1,6 +1,6 @@
 import UserTable from '../components/UserTable';
 import UserForm from '../components/UserForm';
-function App() {
+function Home() {
   return (
     <div className="App">
       <UserForm />
@@ -9,4 +9,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
