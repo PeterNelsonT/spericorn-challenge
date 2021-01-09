@@ -54,6 +54,7 @@ const StyledDetails = styled.div`
         margin-left: 5px;
         border: 1px solid;
         border-color: #d9d9d9;
+        width: 170px;
       }
       .errorText {
         font-size: 10px;
@@ -120,6 +121,9 @@ const StyledDetails = styled.div`
         cursor: pointer;
       }
       .fileInput::-webkit-file-upload-button {
+        visibility: hidden;
+      }
+      .fileInput::file-selector-button {
         visibility: hidden;
       }
       .fileInput:active {
