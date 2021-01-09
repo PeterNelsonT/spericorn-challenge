@@ -80,6 +80,7 @@ const StyledDetails = styled.div`
     .profilePic {
       flex: 35%;
       display: grid;
+      text-align: center;
       gap: 10px;
       .imageContainer {
         max-width: 150px;
@@ -133,6 +134,7 @@ const StyledDetails = styled.div`
   }
   .actionButton {
     display: grid;
+    text-align: center;
     input {
       cursor: pointer;
       width: 130px;
